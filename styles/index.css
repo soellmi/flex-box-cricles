@@ -19,6 +19,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .container-medium-2 {
@@ -32,6 +33,9 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap-reverse;
+    align-content:flex-start
+
+   
 }
 
 .container-medium-3 {
@@ -44,7 +48,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-content: space-between;
 }   
     
 .container-medium-4 {
@@ -70,7 +74,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 .container-medium-6dots {
     position: absolute;
